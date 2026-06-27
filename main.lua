@@ -32,8 +32,7 @@ getgenv().UltraHunterLoaded = true
 LocalPlayer.OnTeleport:Connect(function(State)
     if State == Enum.TeleportState.Started then
         queue_on_teleport([[ 
-            loadstring(game:HttpGet("https://pastebin.com/raw/YOUR_PASTE_HERE"))() 
-            -- немесе scriptтің толық кодын осы жерге қойсаң да болады
+            loadstring(game:HttpGet("https://pastebin.com/raw/UCT2bJHK"))() 
         ]])
     end
 end)
